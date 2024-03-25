@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css    ">
     <meta charset="UTF-8">
@@ -28,15 +29,24 @@
         <h1>Decinos tu opinion</h1>
         <p>Nos gustaria saber que le parecio la pagina, que cambios haria, si tuvo algun problema o cualquier detalle que quiera comentarnos. Valoramos mucho su mensaje</p>
     </div>
-    <section class="formulario">
-        <h4>Deja tu opinion</h4>
-        <form>
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-        <input type="text" name="nombre" id="nombre" placeholder="Apellido">
-        <input type="email" name="nombre" id="nombre" placeholder="Email">  
-        <textarea rows="5" cols="50"></textarea><br><br>
-        <input type="submit" value="Enviar comentario">
-          </form>
-    </section>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Decinos tu opinion</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <footer>
+        <div class="footer">
+        <h4>Redes</h4>
+            <div class="footerr">
+                <a href="https://www.facebook.com/aliceinchains/?locale=es_LA"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@AliceInChainsVEVO"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/aliceinchains/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
