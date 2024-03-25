@@ -3,6 +3,12 @@ body{
     background-color: black;
     }
 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -35,6 +41,7 @@ a:hover{
 .banda{
     text-align: center;
     }
+
 
 .titulo{
     color:white;
@@ -70,9 +77,6 @@ a:hover{
 .grid-container1{
     display: grid;
     grid-template-columns: repeat(3, 150px);
-    margin-left: 800px;
-    margin-top: 50px;
-    padding: 20px;
 }
 
 #titulo-shop{
@@ -158,6 +162,21 @@ a:hover{
     text-align: center;
     background-color: chocolate;
     }
+
+@media(max-width: 750px) {
+    .imagen1{
+        height: 200px;
+    }
+    .imagen2{
+        height: 200px;
+    }
+    .imagen3{
+        height: 200px;
+    }
+    .imagen4{
+        height: 200px;
+    }
+}
 
 .albums{
     color: white;
