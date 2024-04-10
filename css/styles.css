@@ -16,6 +16,10 @@ header{
     height: 70px;
     align-items: center;}
 
+ul {
+    list-style: none;
+}
+
 .logo {
     display: flex;
     align-items: center;}
@@ -29,7 +33,8 @@ header{
 a{
     text-decoration: none;
     color: orangered;}
-    .secciones a{
+
+.secciones a{
     padding-right: 10px;
     font-size: 25px;
     }
@@ -91,7 +96,13 @@ a:hover{
     margin-top: 50px;
 }
 
-@media(max-width:1200px){
+@media(max-width:680px){
+    .container-flex{
+        flex-direction: column;
+    }
+}
+
+@media(min-width:680px) and (max-width:1200px){
     .container-flex{
         flex-direction: column;
     }
@@ -124,6 +135,8 @@ a:hover{
     }
 }
 
+
+
 #titulo-shop{
     display: inline;
     margin-left: 310px;
@@ -146,11 +159,6 @@ a:hover{
     margin-top: 300px;
     }
 
-.footercopy{
-    width: 20px;
-    height: 20px;
-    }
-
 .biografia1 {
     color: white;
     display: flex;
@@ -163,6 +171,12 @@ a:hover{
     margin-bottom: 20px;
     height: 400px;
     }
+
+@media(max-width:500px){
+.biografia_texto{
+    float: left;
+}
+}
 
 .biografia2{
     color: white;
@@ -274,26 +288,14 @@ a:hover{
     }
 
 .tour{
-    margin-left: 600px;
+    text-align: center;
     color: red;
-    display: inline;
+    display: block;
     }
 
 .contacto{
     color: white;
     text-align: center;
-
-    }
-
-.formulario {
-    width: 400px;
-    background-color: brown;
-    padding: 30px;
-    } 
-
-.formulario h4{
-    font-size: 20px;
-    margin-left: 110px;
     }
 
 .listas{

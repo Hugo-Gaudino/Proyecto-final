@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-primary;
+    height: 70px;
+    align-items: center;
+    .logo {
+        display: flex;
+        align-items: center;}
+    }
