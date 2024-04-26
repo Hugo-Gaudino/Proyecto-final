@@ -193,18 +193,31 @@ a:hover{
     }
     .grid-container{
     grid-template-columns: 1fr;
-    margin-left: 0;
-        }
+    margin-left: 120px;
+    }
+    .grid-container1{
+    grid-template-columns: 1fr;
+    margin-left: 120px;
+    }
+    .titulo-instagram{
+        margin-left: 80px;
+    }
     }
 
 #titulo-shop{
     display: inline;
-    margin-left: 310px;
+    margin-left: 200px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     color: orangered;
 }
 
+@media(max-width:420px){
+    .banda{
+        height: 120px;
+    }
+    
+}
 .grid-item{
     height: 100px;
 }
